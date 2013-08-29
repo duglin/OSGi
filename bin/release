@@ -4,6 +4,8 @@
 
 BUILD_DIR=$1
 
+echo "Release is now starting OSGi"
+
 cat << EOF
 
 default_process_types:
