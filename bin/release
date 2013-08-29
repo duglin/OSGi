@@ -1,4 +1,9 @@
 #!/bin/sh
 
-# Print out the build directory
-echo "-----> In release!!"
+cat << EOF
+---
+addons:
+  - heroku-postgresql:dev
+default_process_types:
+  web: bin/node server.js
+EOF
