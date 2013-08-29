@@ -22,8 +22,5 @@ echo "-----> Build dir - $BUILD_DIR"
 ls -la $BUILD_DIR
 
 echo "-----> Cache dir - $CACHE_DIR"
-if [ -a $CACHE_DIR ]; then
-   ls -la $CACHE_DIR
-fi
 
 exit 0
