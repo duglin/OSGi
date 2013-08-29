@@ -1,9 +1,3 @@
 #!/bin/sh
 
-cat << EOF
----
-addons:
-  - heroku-postgresql:dev
-default_process_types:
-  web: bin/node server.js
-EOF
+echo "-----> In release and we are done!!!!"
