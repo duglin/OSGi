@@ -22,7 +22,7 @@ echo "-----> Build dir - $BUILD_DIR"
 ls -la $BUILD_DIR
 
 echo "-----> Cache dir - $CACHE_DIR"
-if [! -a $CACHE_DIR]; then
+if [[! -a $CACHE_DIR]]; then
    mkdir $CACHE_DIR
 fi
 ls -la $CACHE_DIR
