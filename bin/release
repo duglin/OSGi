@@ -2,9 +2,9 @@
 
 #bin/release <build_dir>
 
-BUILD_DIR=$1
+#BUILD_DIR=$1
 
-echo "Release is now starting OSGi"
+#echo "Release is now starting OSGi"
 
 #cat << EOF
 
