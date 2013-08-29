@@ -11,7 +11,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 echo "-----> Build dir - $BUILD_DIR"
-ls $BUILD_DIR
+ls -la $BUILD_DIR
 
 echo "-----> Cache dir - $CACHE_DIR"
 
