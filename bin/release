@@ -1,4 +1,4 @@
 #!/bin/sh
 
 # Print out the build directory
-echo "-----> Build directory is $1"
+echo "-----> In release!!"
