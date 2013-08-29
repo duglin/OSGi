@@ -3,7 +3,7 @@
 
 #BUILD_DIR=$1
 
-echo "In detect $*"
+#echo "In detect $*"
 
 #ls -la $BUILD_DIR/plugins
 
@@ -15,3 +15,5 @@ echo "In detect $*"
 #  echo "No OSGi jar file"
 #  exit 1
 #fi
+
+exit 0
