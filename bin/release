@@ -1,3 +1,4 @@
 #!/bin/sh
 
-echo "-----> In release and we are done!!!!"
+# Print out the build directory
+echo "-----> BUILD_DIR  is $1"
