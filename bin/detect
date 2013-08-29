@@ -3,6 +3,10 @@
 
 BUILD_DIR=$1
 
+echo "In detect $*"
+
+ls -la $BUILD_DIR/plugins
+
 # this pack is valid for OSGi apps using equinox v3.9
 if [ -e $BUILD_DIR/plugins/com.vogella.osgi.firstbundle.internal_1.0.0.201307241320.jar ]; then
   echo "Potential OSGi jar file"
