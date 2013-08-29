@@ -1,10 +1,13 @@
 #!/bin/sh
 # bin/detect <build_dir>
 
+BUILD_DIR=$1
+
 # this pack is valid for OSGi apps using equinox v3.9
-if [ -f $1/plugins/*.jar ]; then
+if [ -f $BUILD_DIR/plugins/*.jar ]; then
   echo "Potential OSGi jar file"
   exit 0
 else
+  echo "No OSGi jar file"
   exit 1
 fi
