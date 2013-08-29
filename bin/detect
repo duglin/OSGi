@@ -1,5 +1,5 @@
 #!/bin/sh
-# bin/detect <build_dir>
+#bin/detect <build_dir>
 
 BUILD_DIR=$1
 
