@@ -6,9 +6,14 @@ set -e
 
 echo "-----> Compiling OSGi app."
 
+BIN_DIR=$(cd $(dirname $0); pwd)
+
 # parse arguments
 BUILD_DIR=$1
 CACHE_DIR=$2
+
+echo "-----> Bin dir - $BIN_DIR"
+ls -la $BIN_DIR
 
 echo "-----> Build dir - $BUILD_DIR"
 
