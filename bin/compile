@@ -19,7 +19,9 @@ echo "-----> equinox dir"
 ls -la $BIN_DIR/../equinox3.9
 
 echo "-----> Build dir - $BUILD_DIR"
+ls -la $BUILD_DIR
 
 echo "-----> Cache dir - $CACHE_DIR"
+ls -la $CACHE_DIR
 
 exit 0
