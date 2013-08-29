@@ -1,9 +1,11 @@
 #!/bin/sh
 
+#bin/release <build_dir>
+
+BUILD_DIR=$1
+
 cat << EOF
----
-addons:
-  - heroku-postgresql:dev
+
 default_process_types:
-  web: bin/node server.js
+  web: java -jar $BUILD_DIR/equinox3.9/org.eclipse.osgi_3.9.0.v20130513-1345.jar -console 
 EOF
