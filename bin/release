@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo hi
-
 cat << EOF
 default_process_types:
   web: env
