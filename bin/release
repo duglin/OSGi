@@ -1,13 +1,13 @@
 #!/bin/bash
 
-set -xo
-set -e
+#set -xo
+#set -e
 
 #bin/release <build_dir>
 
 #BUILD_DIR=$1
 
-echo "Release is now starting OSGi"
+#echo "Release is now starting OSGi"
 
 cat << EOF
 default_process_types:
