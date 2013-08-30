@@ -11,7 +11,7 @@
 
 cat << EOF
 default_process_types:
-  web: sh ls -lt
+  cmd: echo hello there
 EOF
 
 # web: java -jar $BUILD_DIR/equinox3.9/org.eclipse.osgi_3.9.0.v20130513-1345.jar -console 
