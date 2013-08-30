@@ -10,6 +10,8 @@
 #echo "Release is now starting OSGi"
 
 cat << EOF
+config_vars:
+  foo: bar
 default_process_types:
   cmd: echo hello there
 EOF
